@@ -1,4 +1,4 @@
-# ss_e_commerce
+# Uncle Grocery
 
 A new Flutter project.
 
