@@ -21,7 +21,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    Timer(Duration(seconds: 5), () {
+    Timer(Duration(seconds: 2), () {
       Navigator.pushReplacement(
           context,
           MaterialPageRoute(
@@ -88,16 +88,6 @@ class _SplashScreenState extends State<SplashScreen> {
             SizedBox(
               height: screenHeight * 0.10,
             ),
-            Container(
-              decoration: BoxDecoration(
-                  color: Colors.white, borderRadius: BorderRadius.circular(15)),
-              height: screenHeight * 0.06,
-              width: screenWidth * 0.6,
-              child: Image.asset(
-                'assets/1.png',
-                fit: BoxFit.contain,
-              ),
-            )
           ],
         ));
   }
